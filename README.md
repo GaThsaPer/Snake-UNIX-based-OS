@@ -28,6 +28,9 @@ Then you can then play by double-clicking the created file or by typing the foll
 ```bash
 ./Snake
 ```
+## Gameplay 
+To change trajectory of snake movement use wsad keys. </br>
+Remember if head will touch wall or tail you will lose.
 ## Visualization
 <img src="Images/_1.png" width=400 alt="Screenshot of the beginning of the game"> <img src="Images/_2.png" width=400 alt="Screenshot during gameplay">
 <img src="Images/_3.png" width=400 alt="Screenshot during gamplay"> <img src="Images/_4.png" width=400 alt="Screenshot of Game Over">
