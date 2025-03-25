@@ -20,6 +20,10 @@ Then, to compile files, run:
 ```bash
 g++ -std=c++17 -o Snake main.cpp Snake_MacOS.cpp -lncurses
 ```
+If you don't have a g++ compiler, you need to install GCC (GNU Compiler Collection):
+```bash
+brew install gcc
+```
 Then you can then play by double-clicking the created file or by typing the following in the terminal: 
 ```bash
 ./Snake
