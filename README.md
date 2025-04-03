@@ -1,5 +1,5 @@
-# Snake for MacOS
-This is a traditional Snake game created to intergrate with MacOS. The game runs in the terminal and uses the Linux library called ncurses. 
+# Snake UNIX-base Systems
+This is a traditional Snake game created to intergrate with UNIX-based Systems. The game runs in the terminal and uses the library called ncurses. 
 ## Instalation
 First, you need to install ncurses library:
 ```bash 
@@ -16,15 +16,20 @@ rm ./.gitignore
 rm -rf ./.git
 rm -rf ./Images
 ```
+If you don't have a g++ compiler, you need to install GCC (GNU Compiler Collection):
+```bash
+#Linux
+apt install gcc
+apt install g++
+#MacOS
+brew install gcc
+brew install g++
+```
 Then, to compile files, run:
 ```bash
 g++ -std=c++17 -o Snake main.cpp Snake_MacOS.cpp -lncurses
 ```
-If you don't have a g++ compiler, you need to install GCC (GNU Compiler Collection):
-```bash
-brew install gcc
-```
-Then you can then play by double-clicking the created file or by typing the following in the terminal: 
+Then you can then play by typing the following in the terminal: 
 ```bash
 ./Snake
 ```
