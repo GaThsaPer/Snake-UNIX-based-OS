@@ -9,6 +9,7 @@
 #include <ncurses.h>
 #include <unistd.h>
 #include <chrono>
+#include <algorithm>
 
 // Kierunki ruchu węża
 enum Direction {UP, DOWN, LEFT, RIGHT};
